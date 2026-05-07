@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" style="font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;">
+  <!-- Background -->
+  <rect width="760" height="420" fill="#ffffff"/>
+
+  <!-- Title bar (Excel-like) -->
+  <rect width="760" height="32" fill="#217346"/>
+  <text x="12" y="21" fill="white" font-size="13" font-weight="bold">가계부_2025.xlsx - Excel</text>
+  <text x="700" y="21" fill="white" font-size="13">— □ ✕</text>
+
+  <!-- Ribbon -->
+  <rect y="32" width="760" height="28" fill="#f3f3f3"/>
+  <text x="12" y="50" fill="#333" font-size="11">파일</text>
+  <text x="40" y="50" fill="#333" font-size="11">홈</text>
+  <text x="62" y="50" fill="#333" font-size="11">삽입</text>
+  <text x="90" y="50" fill="#333" font-size="11">페이지 레이아웃</text>
+  <text x="170" y="50" fill="#333" font-size="11">수식</text>
+  <text x="200" y="50" fill="#333" font-size="11">데이터</text>
+  <text x="235" y="50" fill="#333" font-size="11">검토</text>
+
+  <!-- Formula bar -->
+  <rect y="60" width="760" height="24" fill="#f9f9f9" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="12" y="76" fill="#666" font-size="11">A1</text>
+  <line x1="40" y1="60" x2="40" y2="84" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="48" y="76" fill="#333" font-size="11">날짜</text>
+
+  <!-- Sheet area -->
+  <!-- Row numbers + Column headers -->
+  <rect y="84" width="760" height="22" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="0.5"/>
+  <rect y="84" width="36" height="336" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="0.5"/>
+
+  <!-- Column headers -->
+  <text x="50" y="99" fill="#333" font-size="11" font-weight="bold">A</text>
+  <text x="128" y="99" fill="#333" font-size="11" font-weight="bold">B</text>
+  <text x="218" y="99" fill="#333" font-size="11" font-weight="bold">C</text>
+  <text x="358" y="99" fill="#333" font-size="11" font-weight="bold">D</text>
+  <text x="478" y="99" fill="#333" font-size="11" font-weight="bold">E</text>
+  <text x="588" y="99" fill="#333" font-size="11" font-weight="bold">F</text>
+  <text x="688" y="99" fill="#333" font-size="11" font-weight="bold">G</text>
+
+  <!-- Grid lines (vertical) -->
+  <line x1="36" y1="84" x2="36" y2="420" stroke="#d0d0d0" stroke-width="1"/>
+  <line x1="110" y1="84" x2="110" y2="420" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="200" y1="84" x2="200" y2="420" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="340" y1="84" x2="340" y2="420" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="460" y1="84" x2="460" y2="420" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="570" y1="84" x2="570" y2="420" stroke="#d0d0d0" stroke-width="0.5"/>
+  <line x1="670" y1="84" x2="670" y2="420" stroke="#d0d0d0" stroke-width="0.5"/>
+
+  <!-- Header row (row 1) - highlighted -->
+  <rect x="36" y="106" width="724" height="22" fill="#217346"/>
+  <text x="42" y="121" fill="white" font-size="11" font-weight="bold">날짜</text>
+  <text x="120" y="121" fill="white" font-size="11" font-weight="bold">분류</text>
+  <text x="210" y="121" fill="white" font-size="11" font-weight="bold">내용</text>
+  <text x="350" y="121" fill="white" font-size="11" font-weight="bold">금액</text>
+  <text x="475" y="121" fill="white" font-size="11" font-weight="bold">결제수단</text>
+  <text x="580" y="121" fill="white" font-size="11" font-weight="bold">누적지출</text>
+  <text x="680" y="121" fill="white" font-size="11" font-weight="bold">비고</text>
+
+  <!-- Row numbers -->
+  <text x="8" y="121" fill="#666" font-size="10">1</text>
+  <text x="8" y="143" fill="#666" font-size="10">2</text>
+  <text x="8" y="165" fill="#666" font-size="10">3</text>
+  <text x="8" y="187" fill="#666" font-size="10">4</text>
+  <text x="8" y="209" fill="#666" font-size="10">5</text>
+  <text x="8" y="231" fill="#666" font-size="10">6</text>
+  <text x="8" y="253" fill="#666" font-size="10">7</text>
+  <text x="8" y="275" fill="#666" font-size="10">8</text>
+  <text x="8" y="297" fill="#666" font-size="10">9</text>
+  <text x="8" y="319" fill="#666" font-size="10">10</text>
+  <text x="8" y="341" fill="#666" font-size="10">11</text>
+  <text x="8" y="363" fill="#666" font-size="10">12</text>
+  <text x="8" y="385" fill="#666" font-size="10">13</text>
+
+  <!-- Data rows -->
+  <!-- Row 2 -->
+  <rect x="36" y="128" width="724" height="22" fill="#f9fff9"/>
+  <text x="42" y="143" fill="#333" font-size="11">2025-04-01</text>
+  <text x="120" y="143" fill="#217346" font-size="11">식비</text>
+  <text x="210" y="143" fill="#333" font-size="11">마트 장보기</text>
+  <text x="420" y="143" fill="#333" font-size="11" text-anchor="end">87,400</text>
+  <text x="480" y="143" fill="#333" font-size="11">신용카드</text>
+  <text x="630" y="143" fill="#333" font-size="11" text-anchor="end">87,400</text>
+
+  <!-- Row 3 -->
+  <rect x="36" y="150" width="724" height="22" fill="#ffffff"/>
+  <text x="42" y="165" fill="#333" font-size="11">2025-04-02</text>
+  <text x="120" y="165" fill="#c55a11" font-size="11">교통</text>
+  <text x="210" y="165" fill="#333" font-size="11">지하철/버스</text>
+  <text x="420" y="165" fill="#333" font-size="11" text-anchor="end">12,200</text>
+  <text x="480" y="165" fill="#333" font-size="11">교통카드</text>
+  <text x="630" y="165" fill="#333" font-size="11" text-anchor="end">99,600</text>
+
+  <!-- Row 4 -->
+  <rect x="36" y="172" width="724" height="22" fill="#f9fff9"/>
+  <text x="42" y="187" fill="#333" font-size="11">2025-04-03</text>
+  <text x="120" y="187" fill="#7030a0" font-size="11">육아</text>
+  <text x="210" y="187" fill="#333" font-size="11">기저귀/분유</text>
+  <text x="420" y="187" fill="#333" font-size="11" text-anchor="end">156,000</text>
+  <text x="480" y="187" fill="#333" font-size="11">신용카드</text>
+  <text x="630" y="187" fill="#333" font-size="11" text-anchor="end">255,600</text>
+
+  <!-- Row 5 -->
+  <rect x="36" y="194" width="724" height="22" fill="#ffffff"/>
+  <text x="42" y="209" fill="#333" font-size="11">2025-04-05</text>
+  <text x="120" y="209" fill="#217346" font-size="11">식비</text>
+  <text x="210" y="209" fill="#333" font-size="11">외식 (가족)</text>
+  <text x="420" y="209" fill="#333" font-size="11" text-anchor="end">43,000</text>
+  <text x="480" y="209" fill="#333" font-size="11">현금</text>
+  <text x="630" y="209" fill="#333" font-size="11" text-anchor="end">298,600</text>
+
+  <!-- Row 6 -->
+  <rect x="36" y="216" width="724" height="22" fill="#f9fff9"/>
+  <text x="42" y="231" fill="#333" font-size="11">2025-04-07</text>
+  <text x="120" y="231" fill="#2e75b6" font-size="11">고정지출</text>
+  <text x="210" y="231" fill="#333" font-size="11">관리비</text>
+  <text x="420" y="231" fill="#333" font-size="11" text-anchor="end">124,500</text>
+  <text x="480" y="231" fill="#333" font-size="11">자동이체</text>
+  <text x="630" y="231" fill="#333" font-size="11" text-anchor="end">423,100</text>
+
+  <!-- Row 7 -->
+  <rect x="36" y="238" width="724" height="22" fill="#ffffff"/>
+  <text x="42" y="253" fill="#333" font-size="11">2025-04-10</text>
+  <text x="120" y="253" fill="#217346" font-size="11">식비</text>
+  <text x="210" y="253" fill="#333" font-size="11">편의점</text>
+  <text x="420" y="253" fill="#333" font-size="11" text-anchor="end">8,700</text>
+  <text x="480" y="253" fill="#333" font-size="11">신용카드</text>
+  <text x="630" y="253" fill="#333" font-size="11" text-anchor="end">431,800</text>
+
+  <!-- Row 8 -->
+  <rect x="36" y="260" width="724" height="22" fill="#f9fff9"/>
+  <text x="42" y="275" fill="#333" font-size="11">2025-04-12</text>
+  <text x="120" y="275" fill="#7030a0" font-size="11">육아</text>
+  <text x="210" y="275" fill="#333" font-size="11">아이 병원</text>
+  <text x="420" y="275" fill="#333" font-size="11" text-anchor="end">35,200</text>
+  <text x="480" y="275" fill="#333" font-size="11">신용카드</text>
+  <text x="630" y="275" fill="#333" font-size="11" text-anchor="end">467,000</text>
+
+  <!-- Row 9 -->
+  <rect x="36" y="282" width="724" height="22" fill="#ffffff"/>
+  <text x="42" y="297" fill="#333" font-size="11">2025-04-15</text>
+  <text x="120" y="297" fill="#c55a11" font-size="11">문화</text>
+  <text x="210" y="297" fill="#333" font-size="11">OTT 구독</text>
+  <text x="420" y="297" fill="#333" font-size="11" text-anchor="end">17,000</text>
+  <text x="480" y="297" fill="#333" font-size="11">자동이체</text>
+  <text x="630" y="297" fill="#333" font-size="11" text-anchor="end">484,000</text>
+
+  <!-- Row 10 -->
+  <rect x="36" y="304" width="724" height="22" fill="#f9fff9"/>
+  <text x="42" y="319" fill="#333" font-size="11">2025-04-18</text>
+  <text x="120" y="319" fill="#217346" font-size="11">식비</text>
+  <text x="210" y="319" fill="#333" font-size="11">마트 장보기</text>
+  <text x="420" y="319" fill="#333" font-size="11" text-anchor="end">62,100</text>
+  <text x="480" y="319" fill="#333" font-size="11">신용카드</text>
+  <text x="630" y="319" fill="#333" font-size="11" text-anchor="end">546,100</text>
+
+  <!-- Row 11 -->
+  <rect x="36" y="326" width="724" height="22" fill="#ffffff"/>
+  <text x="42" y="341" fill="#333" font-size="11">2025-04-22</text>
+  <text x="120" y="341" fill="#7030a0" font-size="11">육아</text>
+  <text x="210" y="341" fill="#333" font-size="11">장난감</text>
+  <text x="420" y="341" fill="#333" font-size="11" text-anchor="end">29,800</text>
+  <text x="480" y="341" fill="#333" font-size="11">신용카드</text>
+  <text x="630" y="341" fill="#333" font-size="11" text-anchor="end">575,900</text>
+
+  <!-- Row 12 -->
+  <rect x="36" y="348" width="724" height="22" fill="#f9fff9"/>
+  <text x="42" y="363" fill="#333" font-size="11">2025-04-25</text>
+  <text x="120" y="363" fill="#2e75b6" font-size="11">고정지출</text>
+  <text x="210" y="363" fill="#333" font-size="11">보험료</text>
+  <text x="420" y="363" fill="#333" font-size="11" text-anchor="end">183,400</text>
+  <text x="480" y="363" fill="#333" font-size="11">자동이체</text>
+  <text x="630" y="363" fill="#333" font-size="11" text-anchor="end">759,300</text>
+
+  <!-- Total row -->
+  <rect x="36" y="370" width="724" height="22" fill="#fff2cc"/>
+  <text x="42" y="385" fill="#333" font-size="11" font-weight="bold">4월 합계</text>
+  <text x="210" y="385" fill="#333" font-size="11" font-weight="bold">총 12건</text>
+  <text x="420" y="385" fill="#c00000" font-size="12" font-weight="bold" text-anchor="end">759,300</text>
+  <text x="580" y="385" fill="#c00000" font-size="11" font-weight="bold">← 월말에야 파악 가능</text>
+
+  <!-- Sheet tabs -->
+  <rect y="398" width="760" height="22" fill="#f0f0f0"/>
+  <rect x="0" y="398" width="50" height="22" fill="#ffffff" stroke="#d0d0d0"/>
+  <text x="8" y="413" fill="#217346" font-size="10" font-weight="bold">4월</text>
+  <rect x="50" y="398" width="50" height="22" fill="#f0f0f0" stroke="#d0d0d0"/>
+  <text x="58" y="413" fill="#666" font-size="10">3월</text>
+  <rect x="100" y="398" width="50" height="22" fill="#f0f0f0" stroke="#d0d0d0"/>
+  <text x="108" y="413" fill="#666" font-size="10">2월</text>
+  <rect x="150" y="398" width="50" height="22" fill="#f0f0f0" stroke="#d0d0d0"/>
+  <text x="158" y="413" fill="#666" font-size="10">1월</text>
+  <text x="210" y="413" fill="#999" font-size="14">+</text>
+</svg>
