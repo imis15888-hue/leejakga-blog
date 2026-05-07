@@ -3,28 +3,19 @@ import { getAllPosts } from "@/lib/posts";
 import PostCard from "@/components/PostCard";
 
 export default function HomePage() {
-  const recentPosts = getAllPosts().slice(0, 5);
+  const allPosts = getAllPosts();
+  const recentPosts = allPosts.slice(0, 5);
 
-  const seriesItems = [
-    {
-      episode: 1,
-      title: "맥북이 배송 온 날, 나는 앱 개발자가 됐다",
-      slug: "01-macbook-delivery-day",
-      status: "published" as const,
-    },
-    {
-      episode: 2,
-      title: "(준비 중)",
-      slug: null,
-      status: "upcoming" as const,
-    },
-    {
-      episode: 3,
-      title: "(준비 중)",
-      slug: null,
-      status: "upcoming" as const,
-    },
-  ];
+  const seriesPosts = allPosts
+    .filter((p) => p.frontmatter.series && p.frontmatter.episode)
+    .sort((a, b) => (a.frontmatter.episode ?? 0) - (b.frontmatter.episode ?? 0));
+
+  const seriesItems = seriesPosts.map((p) => ({
+    episode: p.frontmatter.episode ?? 0,
+    title: p.frontmatter.title,
+    slug: p.slug,
+    status: "published" as const,
+  }));
 
   return (
     <div className="max-w-3xl mx-auto px-5 py-12">
